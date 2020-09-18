@@ -1,0 +1,90 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.citiustech</groupId>
+	<artifactId>myapp</artifactId>
+	<version>1.0</version>
+
+	<name>My App</name>
+	<description>This library consists of custom implementation of Stack data structure</description>
+	<url>http://www.citiustech.com/myapp</url>
+
+	<organization>
+		<name>CitiusTech</name>
+		<url>http://www.citiustech.com</url>
+	</organization>
+
+	<licenses>
+		<license>
+			<name>Apache License</name>
+			<comments>We are happy to share our library.</comments>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Alex Browning</name>
+			<roles>
+				<role>Senior Software Engineer</role>
+			</roles>
+			<email>alex.browning@citiustech.com</email>
+		</developer>
+		<developer>
+			<name>Anna Parker</name>
+			<roles>
+				<role>Team Lead</role>
+			</roles>
+			<email>anna.parker@citiustech.com</email>
+		</developer>
+	</developers>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.7.1</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>3.0.0</version>
+			</plugin>
+		</plugins>
+	</build>
+
+
+</project>
+
+
+
+
+
+
+
+
+
+
+
+
