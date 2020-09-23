@@ -7,7 +7,7 @@ import com.citiustech.myapp.exception.EmptyMyStackException;
 /**
  * Custom implementation of Stack using LinkedList collection
  * 
- * @author Amit Fegade   
+ * @author Amit Fegade   amit@gmail.com
  *
  * @param <T> the type of elements held in this Stack
  */
